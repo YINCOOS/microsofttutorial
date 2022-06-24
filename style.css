@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 478px;
+    border: 3px solid red;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container div{
+    border: 2px solid black;
+    width: 700px;
+    height: 70px;
+   
+
+}
+.container .box1{
+}
+
+.container .box2{
+
+
+}
+.container .box3{
+    background-image: url(imagges10.jpg);
+    background-size: contain;
+    display: flex;
+    padding-top: 80px;
+    width: 100%;
+    height: 400px;
+
+}
+.container .box3 div{
+    width: 500px;
+    height: 200px;
+    border: 100px;
+    box-shadow: 0px 0px 10px 2px blueviolet;
+    text-align: center;
+    padding-left: 70px;
+}
+.background-image{
+    background-size:contain;
+height: 0;
+width: 100%;
+padding-top: 66,64%;
+}
+.figma{
+    display: flex;
+    justify-content: space-evenly;
+    padding: top 800px;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+.figma .boxA{
+    background-image: url(images.4);
+}
+.figma .boxB{
+    background-image: url(images.4);
+}.figma .boxC{
+    background-image: url(images.4);
+}.figma .boxD{
+    background-image: url(images.4);
+}
